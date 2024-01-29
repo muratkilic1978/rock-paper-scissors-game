@@ -78,7 +78,7 @@ User selects 'rock' and computer selects 'scissors'.\
 User selects 'paper' and computer selects 'rock'.\
 User selects 'scissors' and computer selects 'paper'.\
 If so, display a message indicating that the user wins.\ 
-If none of the above conditions are met, it means the computer wins.
+If none of the above conditions are met, it means the computer wins.\
 Write a **console.log** message indicating that the computer wins.
 
 
