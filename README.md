@@ -36,7 +36,7 @@ Check if the user clicked "Cancel". This can be done by checking if playerChoice
 Check if the user wants to quit the game by typing **exit**. If user chooses to quit the game, then display a message using console.log and set the vairable **gameRunning** to **false**. Finally use the **break** to interupt the while loop.
 
 ### Step 8  User's Choice Validation
-Create a new variable named **validChoice> and set it to **false**.
+Create a new variable named **validChoice** and set it to **false**.
 
 ### Step 9 Array of possible choices
 Define an array with the name **choice** which contains the following elements or "rock", "paper" and "scissors"
@@ -59,10 +59,10 @@ if(!validChoice) {
     
 }
 ```
-If validChoice is not true, then display a message using console.log that says 'Invalid choice. Please enter rock, paper, scissors'. After the message  use **continue** to start a new iteration of the loop.
+If validChoice is not true, then display a message using console.log that says **'Invalid choice. Please enter rock, paper, scissors'**. After the message write **continue** to start a new iteration of the loop.
 
 ### Step 12 Generate the Computer's Choice
-After validating the user's choice, generate the computer's choice randomly by using the Math.floor with Math.random() function to select an index from the choices array and save it in a variable named **computerChoice**
+After validating the user's choice, generate the computer's choice randomly by using the **Math.floor** with **Math.random()** function to select an index from the choices array and save it in a variable named **computerChoice**
 
 This can be done by writing 
 ```Javascript 
@@ -71,15 +71,19 @@ const computerChoice = choices[ Math.floor[Math.random() * choices.length) ];
 
 
 ### Step 13 Determine the Winner
-Evaluate if the user's choice (playerChoice) is equal to the computer's choice (computerChoice). If so, display af console.log message that says it's draw. If the choices differ, check specific conditions for a user victory:
-User selects 'rock' and computer selects 'scissors'.
-User selects 'paper' and computer selects 'rock'.
-User selects 'scissors' and computer selects 'paper'.If so, display a message indicating that the user wins. If none of the above conditions are met, it means the computer wins.
-Write a console.log message indicating that the computer wins.
+Evaluate if the user's choice (playerChoice) is equal to the computer's choice (computerChoice).\
+If so, display af **console.log** message that says 'it's draw.'\
+If the choices differ, check specific conditions for a user victory:\
+User selects 'rock' and computer selects 'scissors'.\
+User selects 'paper' and computer selects 'rock'.\
+User selects 'scissors' and computer selects 'paper'.\
+If so, display a message indicating that the user wins.\ 
+If none of the above conditions are met, it means the computer wins.
+Write a **console.log** message indicating that the computer wins.
 
 
 ### Step 14 Display plyarChoice and computerChoice
-After determining the winner, use console.log to display the choices made by the user and the computer.
+After determining the winner, use **console.log** to display the choices made by the user and the computer.
 
 ### Step 15 Call the function playGame
-Place your cursor outside the playGame function and start the game by calling playGame function.
+Place your cursor outside the **playGame** function and start the game by calling **playGame()** function.
